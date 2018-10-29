@@ -1,12 +1,12 @@
-# Introduction
-This is a repository of experiment code supporting the Maximal Revenue bid strategy (MR) proposed in paper xxxx.
+# Maximal Revenue Bid Strategy in Demand-Side Platforms
+This is a repository of experiment code supporting the Maximal Revenue bid strategy (MR).
 
-For any problems, please report the issues here
+For any problems, please report the issues here.
 
 ## Quirk Start
 Before run the demo, please first check the GitHub project [make iPinYou data](https://github.com/wnzhang/make-ipinyou-data) for pre-processing the [iPinYou dataset](http://data.computational-advertising.org).
 
-After pre-processing data, please update the `root` variable in [./shell/mk_train_init.sh](shell/mk_train_init.sh#L3) and [./shell/mk_train_bidder.sh](shell/mk_train_bidder.sh#L3)
+After pre-processing data, please update the `root` variable in [./shell/mk_train_init.sh](shell/mk_train_init.sh#L2) and [./shell/mk_train_bidder.sh](shell/mk_train_bidder.sh#L2)
 by location of the processed iPinYou data.
 
 And then please run the following code line by line
@@ -37,3 +37,6 @@ sqrt2	2	10000	1	[ 20351.81787503      0.68188916]	614638	338095	12677	469	13.87	
 sqrt2	5	10000	1	[ 5000.00006474     0.35872246]	614638	249071	9816	469	18.83	4.78	530.96
 sqrt2	10	10000	1	[ 5000.     1.]	614638	84984	995	468	55.08	47.04	181.55
 ```
+
+Here 'lin' and 'sqrt2' mean the 'MR1' and 'MR2' proposed in original paper, respectively.
+
