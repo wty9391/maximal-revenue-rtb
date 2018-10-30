@@ -1,5 +1,5 @@
-# Maximal Revenue Bid Strategy in Demand-Side Platforms
-This is a repository of experiment code supporting the Maximal Revenue bid strategy (MR).
+# Maximal Revenue Bidding Strategy in Demand-Side Platforms
+This is a repository of experiment code supporting the Maximal Revenue bidding strategy (MR).
 
 For any problems, please report the issues here.
 
