@@ -144,7 +144,6 @@ class Bidder():
         return -l
     
     def loss_der(self, alpha, Ks):  # derivative of loss function
-        # not finished
         a = np.zeros_like(alpha)
         
         #Ks is also the derivative of alpha in b
